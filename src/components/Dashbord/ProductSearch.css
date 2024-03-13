@@ -1,0 +1,69 @@
+.product-search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product-search-form {
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  
+  .product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product-card {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 3px solid #ffffff; /* White border */
+    background-color: rgb(21 134 70 / 37%);
+    color: #ffffff; /* White text color */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: center; /* Center children vertically */
+    align-items: center; /* Center children horizontally */
+    text-align: center; /* Center text horizontally */
+  }
+  
+  
+  .product-card h3 {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  
+  .product-card p {
+    margin-bottom: 5px;
+  }
+  .product-search-form input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #ffffff; /* White border */
+    border-radius: 5px;
+    background-color: transparent; /* Transparent background */
+    color: #ffffff; /* White text color */
+  }
+  
+  .product-search-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text color */
+    cursor: pointer;
+  }
+  
+  .product-search-form button:hover {
+    background-color: #cccccc; /* Light gray background on hover */
+  }
+  .para{
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .product-search-form input[type="text"]::placeholder {
+    color: white; 
+  }
